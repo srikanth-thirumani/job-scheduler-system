@@ -41,7 +41,7 @@ A professional full-stack job scheduling and automation dashboard built for Doti
 ### 🔹 Dashboard – Filters & Job Cards
 
 **Dashboard with Active Filters**
-![Dashboard Filters](screenshots/status filter.png)
+![Dashboard Filters](screenshots/status-filter.png)
 *Filter controls for status (pending/running/completed/failed) and priority (Low/Medium/High)*
 
 **Filtered View - Pending Jobs**
