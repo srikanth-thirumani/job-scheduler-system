@@ -85,7 +85,7 @@ A professional full-stack job scheduling and automation dashboard built for Doti
 ### 🔹 Job Details & Webhook Logs
 
 **Job Details Page - Full View**
-![Job Details Full](screenshots/job-details-page.png)
+![Job Details Full](screenshots/job-status.png)
 *Comprehensive job details page showing task name, payload, priority, status, and timestamps*
 
 **Job Payload Information**
