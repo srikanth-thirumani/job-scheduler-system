@@ -6,6 +6,121 @@ A professional full-stack job scheduling and automation dashboard built for Doti
 ![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)
 ![Next.js](https://img.shields.io/badge/Next.js-14.0-black)
 
+---
+
+## 📸 Application Screenshots (REAL – Not Mock)
+
+### 🔹 Create Job – JSON Validation & Priority Selection
+
+**Create Job Form Interface**
+![Create Job Form](screenshots/create-job-form.png)
+*Professional job creation interface with clean form fields for task name, JSON payload, and priority selection*
+
+**JSON Validation in Action**
+![JSON Validation Error](screenshots/json-validation-error.png)
+*Real-time JSON validation showing error message for invalid JSON syntax*
+
+![JSON Validation Success](screenshots/json-validation-success.png)
+*Valid JSON accepted with proper formatting and syntax highlighting*
+
+**Priority Selection Dropdown**
+![Priority Selection](screenshots/priority-dropdown.png)
+*Clean priority selection dropdown with Low, Medium, and High options*
+
+---
+
+### 🔹 Dashboard – Loading & Live Status
+
+**Dashboard Loading State**
+![Dashboard Loading Skeleton](screenshots/dashboard-loading.png)
+*Skeleton loading states providing visual feedback during data fetch*
+
+**Live Dashboard with Real-time Updates**
+![Dashboard Live View](screenshots/dashboard-live.png)
+*Complete dashboard showing jobs, statistics, and real-time status updates*
+
+**Real-time Status Updates**
+![Status Updates Animation](screenshots/status-realtime-update.png)
+*Jobs automatically refreshing every 5 seconds with live status changes*
+
+---
+
+### 🔹 Dashboard – Filters & Job Cards
+
+**Dashboard with Active Filters**
+![Dashboard Filters](screenshots/dashboard-filters.png)
+*Filter controls for status (pending/running/completed/failed) and priority (Low/Medium/High)*
+
+**Filtered View - Pending Jobs**
+![Filtered Pending Jobs](screenshots/filtered-pending.png)
+*Dashboard showing only pending jobs after applying status filter*
+
+**Filtered View - High Priority Jobs**
+![Filtered High Priority](screenshots/filtered-high-priority.png)
+*Dashboard filtered to show only high-priority jobs*
+
+**Job Cards Grid Layout**
+![Job Cards Grid](screenshots/job-cards-grid.png)
+*Responsive card layout displaying job information with status badges and action buttons*
+
+---
+
+### 🔹 Job Execution Lifecycle
+
+**Step 1: Job in Pending State**
+![Job Pending](screenshots/job-status-pending.png)
+*Newly created job in pending state, ready for execution with yellow status badge*
+
+**Step 2: Job Being Executed (Running)**
+![Job Running](screenshots/job-status-running.png)
+*Job in running state with blue pulsing animation during 3-second execution*
+
+**Step 3: Job Successfully Completed**
+![Job Completed](screenshots/job-status-completed.png)
+*Job completed successfully with green status badge and completion timestamp*
+
+**Complete Execution Flow Visualization**
+![Execution Flow](screenshots/execution-lifecycle-flow.png)
+*Visual representation of the complete job lifecycle: pending → running → completed*
+
+**Failed Job State (Error Handling)**
+![Job Failed](screenshots/job-status-failed.png)
+*Job failure state with red badge showing error handling capability*
+
+---
+
+### 🔹 Job Details & Webhook Logs
+
+**Job Details Page - Full View**
+![Job Details Full](screenshots/job-details-page.png)
+*Comprehensive job details page showing task name, payload, priority, status, and timestamps*
+
+**Job Payload Information**
+![Job Payload Details](screenshots/job-payload-details.png)
+*Detailed view of the JSON payload with proper formatting*
+
+**Webhook Logs Section**
+![Webhook Logs](screenshots/webhook-logs-section.png)
+*Complete webhook call history with request/response information*
+
+**Successful Webhook Delivery**
+![Webhook Success](screenshots/webhook-success.png)
+*Successful webhook log entry showing HTTP 200 response with green success indicator*
+
+**Webhook Request Payload**
+![Webhook Request Payload](screenshots/webhook-request-payload.png)
+*Detailed view of the webhook request payload sent to external endpoint*
+
+**Webhook Response Data**
+![Webhook Response](screenshots/webhook-response-data.png)
+*Webhook response status and data received from the endpoint*
+
+**Failed Webhook Attempt (Error Handling)**
+![Webhook Failed](screenshots/webhook-failed.png)
+*Failed webhook delivery with error details and retry information*
+
+---
+
 ## 🎯 Project Overview
 
 The Job Scheduler & Automation System is a mini automation engine designed to handle background tasks such as sending emails, generating reports, and syncing data. It provides a clean, modern interface for creating jobs, monitoring their execution status, and tracking webhook notifications.
@@ -758,6 +873,7 @@ job-scheduler-system/
 │   ├── lib/
 │   │   ├── api.js
 │   │   └── utils.js
+│   ├── screenshots/          # Application screenshots
 │   ├── .env.example
 │   ├── .gitignore
 │   ├── jsconfig.json
@@ -980,38 +1096,4 @@ This is a showcase project for Dotix Technologies assessment. For improvements:
 
 ## 📄 License
 
-MIT License - feel free to use this project for learning and reference.
-
----
-
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [srikanth-thirumani](https://github.com/srikanth-thirumani)
-- LinkedIn: [https://www.linkedin.com/in/srikanth-thirumani-3148a1378](https://www.linkedin.com/in/srikanth-thirumani-3148a1378)
-- Email: srikanththirumani01@gmail.com
-
----
-
-## 🙏 Acknowledgments
-
-- **Dotix Technologies** - For the comprehensive assessment project
-- **Anthropic (Claude)** - AI assistance in development
-- **Shadcn UI** - Design inspiration for components
-- **Next.js Team** - Excellent framework documentation
-- **MySQL** - Robust database system
-
----
-
-## 📞 Support
-
-For questions or issues:
-1. Check existing GitHub issues
-2. Create a new issue with detailed description
-3. Contact via email with [Job Scheduler] in subject
-
----
-
-**Built with ❤️ using Next.js, Express, and MySQL**
-
-*Last Updated: January 11, 2026*
+MIT License - feel free to use this
