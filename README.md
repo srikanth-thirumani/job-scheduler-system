@@ -13,7 +13,7 @@ A professional full-stack job scheduling and automation dashboard built for Doti
 ### 🔹 Create Job – JSON Validation & Priority Selection
 
 **Create Job Form Interface**
-![Create Job Form](screenshots/create job.png)
+![Create Job Form](screenshots/create-job.png)
 *Professional job creation interface with clean form fields for task name, JSON payload, and priority selection*
 
 **JSON Validation in Action**
