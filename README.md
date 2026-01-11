@@ -17,7 +17,7 @@ A professional full-stack job scheduling and automation dashboard built for Doti
 *Professional job creation interface with clean form fields for task name, JSON payload, and priority selection*
 
 **JSON Validation in Action**
-![JSON Validation Error](screenshots/json error.png)
+![JSON Validation Error](screenshots/json-error.png)
 *Real-time JSON validation showing error message for invalid JSON syntax*
 
 **Priority Selection Dropdown**
