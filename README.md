@@ -987,9 +987,9 @@ MIT License - feel free to use this project for learning and reference.
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/srikanth-thirumani)
+- LinkedIn: [Your Profile](https://www.linkedin.com/in/srikanth-thirumani-3148a1378)
+- Email: srikanththirumani01@gmail.com
 
 ---
 
