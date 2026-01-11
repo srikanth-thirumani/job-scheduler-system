@@ -719,10 +719,221 @@ This project was developed with assistance from **Claude 3.7 Sonnet** (Anthropic
 
 #### Initial Project Setup Prompt
 ```
-I need realtime code with professional interface recruiter will impress 
-with my interface implement complete without excluding a single project.
+You are a Senior Full-Stack Engineer with strong system design, scalability, and production deployment experience.
 
-[Provided full project requirements document from Dotix Technologies]
+🎯 Objective
+
+Build a COMPLETE, REAL-TIME, END-TO-END “Job Scheduler & Automation System” based strictly on the Dotix Technologies Skill Test Requirements provided below.
+
+⚠️ CRITICAL INSTRUCTIONS
+
+This is a REAL IMPLEMENTATION — NO mocks, NO placeholders, NO fake data
+
+DO NOT SKIP even a single feature mentioned
+
+Follow industry best practices, clean architecture, and professional naming
+
+Code must be production-ready, secure, and scalable
+
+UI must be modern, polished, recruiter-impressive
+
+All APIs must be fully functional
+
+Provide working frontend + backend integration
+
+Assume this project will be reviewed by senior engineers
+
+🧱 TECH STACK (STRICT — DO NOT CHANGE)
+Frontend
+
+Next.js (App Router)
+
+TypeScript
+
+Tailwind CSS
+
+ShadCN UI
+
+React Query
+
+WebSockets (real-time updates)
+
+Responsive & accessible UI
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB (Mongoose)
+
+Redis (BullMQ / Queue)
+
+WebSockets (Socket.IO)
+
+Node-Cron
+
+JWT Authentication
+
+📌 CORE FEATURES (IMPLEMENT ALL)
+🔐 Authentication & Authorization
+
+Signup / Login
+
+JWT-based authentication
+
+Role-based access (Admin / User)
+
+Secure password hashing
+
+🕒 Job Scheduler
+
+Create jobs with:
+
+Name
+
+Schedule (Cron expression)
+
+Payload (JSON)
+
+Retry configuration
+
+Support:
+
+One-time jobs
+
+Recurring jobs
+
+Delayed jobs
+
+Real-time job execution
+
+Job failure handling & retries
+
+Dead-letter queue
+
+⚙️ Job Execution Engine
+
+Redis-backed queue (BullMQ)
+
+Worker processes
+
+Timeout handling
+
+Retry logic
+
+Execution logs
+
+Job status tracking (Pending / Running / Success / Failed)
+
+🔔 Webhooks
+
+Webhook creation & management
+
+Secure webhook trigger on job execution
+
+Signature verification (HMAC)
+
+Retry on failure
+
+Webhook logs
+
+Built-in webhook test receiver
+
+📊 Dashboard (HIGH QUALITY UI)
+
+Real-time job status updates (WebSockets)
+
+Charts for:
+
+Job success/failure
+
+Execution time
+
+Activity feed
+
+Logs viewer
+
+Job history table with filters
+
+Dark / Light mode
+
+🧪 Testing & Monitoring
+
+Manual job trigger
+
+Webhook testing
+
+API health check endpoint
+
+Error handling middleware
+
+Centralized logging
+
+🧠 System Design
+
+Clean folder structure
+
+Service-based architecture
+
+Controllers, Services, Repositories
+
+Environment configuration
+
+Scalable & maintainable code
+
+🧑‍💻 DELIVERY REQUIREMENTS
+
+For EVERY FEATURE, provide:
+
+Brief explanation (concise, professional)
+
+Complete working backend code
+
+Complete working frontend code
+
+MongoDB schemas
+
+Redis queue configuration
+
+WebSocket setup
+
+Security best practices
+
+Exact run commands
+
+Environment variables
+
+Production-ready folder structure
+
+🧪 HOW IT MUST WORK
+
+Jobs execute in real time
+
+Webhooks fire on job completion
+
+UI updates instantly via WebSockets
+
+No manual refresh required
+
+Fully reproducible locally
+
+🏁 FINAL OUTPUT
+
+Full source code (no gaps)
+
+Professional UI screenshots description
+
+Clear setup instructions
+
+Ready for GitHub submission
+
+Recruiter-ready project quality
+
+🛑 ABSOLUTE RULE
+
+If ANY requirement is unclear, infer intelligently and implement it professionally — do not omit anything.
 ```
 
 ### What AI Helped With
