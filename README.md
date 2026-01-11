@@ -13,18 +13,15 @@ A professional full-stack job scheduling and automation dashboard built for Doti
 ### 🔹 Create Job – JSON Validation & Priority Selection
 
 **Create Job Form Interface**
-![Create Job Form](screenshots/create-job-form.png)
+![Create Job Form](screenshots/create job.png)
 *Professional job creation interface with clean form fields for task name, JSON payload, and priority selection*
 
 **JSON Validation in Action**
-![JSON Validation Error](screenshots/json-validation-error.png)
+![JSON Validation Error](screenshots/json error.png)
 *Real-time JSON validation showing error message for invalid JSON syntax*
 
-![JSON Validation Success](screenshots/json-validation-success.png)
-*Valid JSON accepted with proper formatting and syntax highlighting*
-
 **Priority Selection Dropdown**
-![Priority Selection](screenshots/priority-dropdown.png)
+![Priority Selection](screenshots/priorities.png)
 *Clean priority selection dropdown with Low, Medium, and High options*
 
 ---
@@ -32,16 +29,12 @@ A professional full-stack job scheduling and automation dashboard built for Doti
 ### 🔹 Dashboard – Loading & Live Status
 
 **Dashboard Loading State**
-![Dashboard Loading Skeleton](screenshots/dashboard-loading.png)
+![Dashboard Loading Skeleton](screenshots/loading.png)
 *Skeleton loading states providing visual feedback during data fetch*
 
 **Live Dashboard with Real-time Updates**
 ![Dashboard Live View](screenshots/dashboard-live.png)
 *Complete dashboard showing jobs, statistics, and real-time status updates*
-
-**Real-time Status Updates**
-![Status Updates Animation](screenshots/status-realtime-update.png)
-*Jobs automatically refreshing every 5 seconds with live status changes*
 
 ---
 
@@ -100,7 +93,7 @@ A professional full-stack job scheduling and automation dashboard built for Doti
 *Detailed view of the JSON payload with proper formatting*
 
 **Webhook Logs Section**
-![Webhook Logs](screenshots/webhook-logs-section.png)
+![Webhook Logs](screenshots/webhook.png)
 *Complete webhook call history with request/response information*
 
 **Successful Webhook Delivery**
