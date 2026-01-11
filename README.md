@@ -100,17 +100,6 @@ A professional full-stack job scheduling and automation dashboard built for Doti
 ![Webhook Success](screenshots/webhook-success.png)
 *Successful webhook log entry showing HTTP 200 response with green success indicator*
 
-**Webhook Request Payload**
-![Webhook Request Payload](screenshots/webhook-request-payload.png)
-*Detailed view of the webhook request payload sent to external endpoint*
-
-**Webhook Response Data**
-![Webhook Response](screenshots/webhook-response-data.png)
-*Webhook response status and data received from the endpoint*
-
-**Failed Webhook Attempt (Error Handling)**
-![Webhook Failed](screenshots/webhook-failed.png)
-*Failed webhook delivery with error details and retry information*
 
 ---
 
