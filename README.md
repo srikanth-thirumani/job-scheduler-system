@@ -33,7 +33,7 @@ A professional full-stack job scheduling and automation dashboard built for Doti
 *Skeleton loading states providing visual feedback during data fetch*
 
 **Live Dashboard with Real-time Updates**
-![Dashboard Live View](screenshots/dashboard live status.png)
+![Dashboard Live View](screenshots/dashboard-live-status.png)
 *Complete dashboard showing jobs, statistics, and real-time status updates*
 
 ---
